@@ -1,0 +1,30 @@
+
+/* Forms & Form fields */
+.form {
+	margin-bottom: 40px;
+
+	&__row-1 {
+		margin-bottom: 20px;
+	}
+
+	&__element {
+		font-size: 18px;
+		// padding: 10px;
+		@include inner-spacing(10px);
+		color: #24A1AE;
+		background: #fefefe;
+		border: solid 1px #725830;
+		margin-bottom: 4px;
+	}
+
+	&__element-button {
+		width: 100%;
+		margin-bottom: 4px;
+	}
+
+	&__element-entry,
+	&__element-time {
+		width: 100%;
+	}
+
+}

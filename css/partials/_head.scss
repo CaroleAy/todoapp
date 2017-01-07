@@ -1,0 +1,13 @@
+.head {
+
+	&__main {
+		@include title-base;
+		@include title-main;
+	}
+
+	&__sub {
+		@include title-base;
+		@include title-sub;
+	}
+
+}

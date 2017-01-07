@@ -1,0 +1,22 @@
+@mixin box() {
+	background: $color-sigh;
+	padding: 10px;
+}
+
+@mixin inner-spacing($padding: 15px) {
+	padding: $padding;
+}
+
+// Typography, Titles
+@mixin title-base {
+	margin-bottom: 20px;
+}
+
+@mixin title-main {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+@mixin title-sub {
+	font-size: 20px;
+}
